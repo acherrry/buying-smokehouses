@@ -1,0 +1,5 @@
+.goods__card-btn_disabled {
+  cursor: default;
+  background: #22943C;
+  transition: none;
+}

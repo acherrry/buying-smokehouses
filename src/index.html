@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Сервис Mesto</title>
+  <title>buying-smokehouses</title>
 </head>
 
 <body class="body">
@@ -12,7 +12,48 @@
   <div class="page">
     <main class="content">
       <section class="goods">
-        <h1 class="goods__title">Научиться учиться</h1>
+        <h1 class="goods__title">Заголовок блока</h1>
+        <p class="goods__subtitle">Подзаголовок блока</p>
+        <ul class="goods__cards">
+          <li class="goods__card" id="goods__card1">
+            <h2 class="goods__card-title"></h2>
+            <img class="goods__card-img" src="<%=require('./images/goods/smokehouses-1.png')%>" alt="Коптильня с одной чашей">
+            <p class="goods__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis rhoncus mi. Duis 
+              ultrices augue nunc, sit amet placerat ligula pretium vel. Aenean eget quam ante. Duis ipsum dui, euismod id 
+              tristique id, consectetur vitae enim. Nunc finibus consequat risus, vel tristique ex dapibus et. Proin tempus 
+              nulla quis erat blandit vehicula. Duis ipsum dui, euismod id tristique id, consectetur vitae enim. Aliquam quis
+              rhoncus mi.</p>
+            <p class="goods__card-price"></p>
+            <button class="goods__card-btn" type="button" aria-label="Добавить">ДОБАВИТЬ В КОРЗИНУ</button>
+          </li>
+
+          <li class="goods__card" id="goods__card2">
+            <h2 class="goods__card-title"></h2>
+            <img class="goods__card-img" src="<%=require('./images/goods/smokehouses-2.png')%>" alt="Коптильня с двумя чашами">
+            <p class="goods__card-text">Aliquam quis rhoncus mi. Duis ultrices augue nunc, sit amet placerat ligula pretium vel. 
+              Aenean eget quam ante. Duis ipsum dui, euismod id tristique id, consectetur vitae enim. Nunc finibus consequat 
+              risus, vel tristique ex dapibus et. Proin tempus nulla quis erat blandit vehicula.  Aenean eget quam ante. Duis 
+              ipsum dui, euismod id tristique id, consectetur vitae enim.</p>
+            <p class="goods__card-price"></p>
+            <button class="goods__card-btn" type="button" aria-label="Добавить">ДОБАВИТЬ В КОРЗИНУ</button>
+          </li>
+
+          <li class="goods__card" id="goods__card3">
+            <h2 class="goods__card-title"></h2>
+            <img class="goods__card-img" src="<%=require('./images/goods/smokehouses-3.png')%>" alt="Коптильня с тремя чашами">
+            <p class="goods__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis rhoncus mi. Duis 
+              ultrices augue nunc, sit amet placerat ligula pretium vel. Aenean eget quam ante.  Proin tempus nulla quis erat 
+              blandit vehicula.  Aenean eget quam ante. Duis ipsum dui, euismod id tristique id, consectetur vitae enim. </p>
+            <p class="goods__card-price"></p>
+            <button class="goods__card-btn" type="button" aria-label="Добавить">ДОБАВИТЬ В КОРЗИНУ</button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="summation">
+        <p class="summation__text">Общая сумма:</p>
+        <p class="summation__detailing"></p>
+        <span class="summation__units">руб</span>
       </section>
     </main>
   </div>

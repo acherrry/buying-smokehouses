@@ -1,0 +1,19 @@
+.goods__card-btn {
+  margin: 30px 0;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  width: 300px;
+  height: 57px;
+  background: #2CC34F;
+  border-radius: 3px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  transition: background 0.2s linear;
+}
+
+.goods__card-btn:hover {
+  background: #22943C;
+}

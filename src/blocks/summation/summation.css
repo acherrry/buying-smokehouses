@@ -1,0 +1,11 @@
+.summation {
+  width: 1140px;
+  margin: auto auto 0;
+  min-height: 162px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}

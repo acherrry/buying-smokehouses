@@ -1,0 +1,9 @@
+.goods__card {
+  height: 100%;
+  max-width: 300px;
+  list-style: none;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}

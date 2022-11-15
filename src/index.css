@@ -1,0 +1,23 @@
+@import url(./vendor/normalize.css);
+
+@import url(./vendor/fonts/fonts.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/content/content.css);
+
+@import url(./blocks/goods/goods.css);
+@import url(./blocks/goods/__title/goods__title.css);
+@import url(./blocks/goods/__subtitle/goods__subtitle.css);
+@import url(./blocks/goods/__cards/goods__cards.css);
+@import url(./blocks/goods/__card/goods__card.css);
+@import url(./blocks/goods/__card-title/goods__card-title.css);
+@import url(./blocks/goods/__card-img/goods__card-img.css);
+@import url(./blocks/goods/__card-text/goods__card-text.css);
+@import url(./blocks/goods/__card-price/goods__card-price.css);
+@import url(./blocks/goods/__card-btn/goods__card-btn.css);
+@import url(./blocks/goods/__card-btn/_disabled/goods__card-btn_disabled.css);
+
+@import url(./blocks/summation/summation.css);
+@import url(./blocks/summation/__text/summation__text.css);
+@import url(./blocks/summation/__detailing/summation__detailing.css);

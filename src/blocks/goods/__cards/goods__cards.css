@@ -1,0 +1,7 @@
+.goods__cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin: 0 auto;
+  padding: 0;
+}
